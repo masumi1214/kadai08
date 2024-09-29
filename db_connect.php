@@ -6,8 +6,8 @@ function db_conn()
         // データベースの接続情報を設定します
         $db_name =  'masumi1214_gs_kadai08';            // データベース名
         $db_host =  'mysql80.masumi1214.sakura.ne.jp';  // DBホスト名
-        $db_id =    'masumi1214';                       // ユーザー名
-        $db_pw =    'mieko_0623';                       // パスワード
+        $db_id =    ' ';                       // ユーザー名
+        $db_pw =    ' ';                       // パスワード
         
         // DSN (Data Source Name) を作成してデータベースに接続
         $server_info = 'mysql:dbname=' . $db_name . ';charset=utf8;host=' . $db_host;
